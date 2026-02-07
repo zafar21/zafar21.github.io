@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  background: #ffe6f0;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  margin: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.yes {
+  background: #ff4d88;
+  color: white;
+}
+
+.no {
+  background: #999;
+  color: white;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}

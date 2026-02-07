@@ -1,2 +1,37 @@
-Are you lost?
-There's nothing here.
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container" id="gameBox">
+
+  <h2 id="text">Hey there 😊</h2>
+
+  <button onclick="nextStep()" id="mainBtn">
+    Tap to continue
+  </button>
+
+</div>
+
+<div id="finalBox" class="hidden">
+  <h2>Will you be my Valentine? 💖</h2>
+
+  <button class="yes" onclick="yesClicked()">YES</button>
+  <button class="no" onmouseover="moveNo(this)">NO</button>
+</div>
+
+<div id="result" class="hidden">
+  <h1>YAYYYYY! 🎉</h1>
+  <p>You just made my day ❤️</p>
+  <p>Can’t wait for our Valentine’s date 😊</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
