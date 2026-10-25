@@ -1,65 +1,234 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For Golu ❤️</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zafar Ali | Credit Risk &amp; Policy</title>
+  <meta name="description" content="Zafar Ali, Risk Manager at CRED. Credit policy for digital lending, credit risk analytics, MBA from IIM Kozhikode.">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121513" media="(prefers-color-scheme: dark)">
 
-<link rel="stylesheet" href="style.css">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Zafar Ali | Credit Risk &amp; Policy">
+  <meta property="og:description" content="Risk Manager at CRED. Credit policy for digital lending.">
+  <meta property="og:url" content="https://zafar21.github.io/">
+  <meta property="og:image" content="https://zafar21.github.io/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.documentElement.classList.add('js');
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
 </head>
-
 <body>
+  <a class="skip" href="#main">Skip to content</a>
 
-<div id="hearts"></div>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand" aria-label="Zafar Ali, home">ZA</a>
+      <nav aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+      </button>
+    </div>
+  </header>
 
-<!-- Loading Screen -->
-<div id="loading">
-  <h2>Loading something special for Golu...</h2>
-</div>
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero wrap" id="top">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Credit Risk &amp; Policy &middot; Bengaluru</p>
+        <h1>Zafar Ali</h1>
+        <p class="lede">I decide who gets credit, how much, and at what price, and build the data tools that make those calls faster.</p>
+        <p class="sub">Risk Manager at <strong>CRED</strong>. Previously credit risk consulting for US lenders at Indus Insights. MBA, IIM Kozhikode.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn" href="https://www.linkedin.com/in/skzafarali/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <figure class="hero-photo reveal">
+        <img src="assets/zafar.jpg" width="880" height="1100" alt="Zafar Ali, smiling, arms crossed, in front of a forested cliff">
+      </figure>
+    </section>
 
-<!-- Typing Intro -->
-<div class="box hidden" id="intro">
-  <h2 id="typing"></h2>
-  <button onclick="startGame()">Continue</button>
-</div>
+    <!-- About -->
+    <section class="section wrap" id="about">
+      <h2 class="section-title"><span>01</span>About</h2>
+      <div class="about-grid">
+        <div class="prose reveal">
+          <p>I work on consumer lending at CRED, where I own credit policy for CashX, the higher-risk segment of CRED Cash's personal loan business, and support PREFR, CRED's lending subsidiary.</p>
+          <p>I studied psychology and computer science at Ashoka University before an MBA at IIM Kozhikode. That's four-plus years in analytics since, the last two and a half in credit risk across US lenders and Indian fintech.</p>
+        </div>
+        <ul class="stats reveal" aria-label="Highlights">
+          <li><strong>+40%</strong><span>eligible customers from a new bureau policy, at the same risk</span></li>
+          <li><strong>3 days &rarr; 1 hr</strong><span>to test a credit policy change</span></li>
+          <li><strong>&lt;5%</strong><span>loss-forecast variance on a $29B portfolio</span></li>
+        </ul>
+      </div>
+    </section>
 
-<!-- Quiz Box -->
-<div class="box hidden" id="questionBox">
-  <h2 id="question"></h2>
-  <div id="options"></div>
-</div>
+    <!-- Experience -->
+    <section class="section wrap" id="experience">
+      <h2 class="section-title"><span>02</span>Experience</h2>
 
-<!-- Final Proposal -->
-<div class="box hidden" id="finalBox">
-  <h1>So Golu...</h1>
-  <h2>Will you be my Valentine? 💖</h2>
+      <article class="job reveal">
+        <div class="job-meta">
+          <p class="when">Mar 2026 &ndash; Present</p>
+          <p class="where">Bengaluru</p>
+        </div>
+        <div class="job-body">
+          <h3>Risk Manager, Risk &amp; Policy <span class="org">CRED</span></h3>
+          <p class="job-sum">Credit policy for digital personal loans: cut-offs, risk tiers, line assignment and risk-based pricing.</p>
+          <ul>
+            <li>Launched a CRIF-bureau credit policy that grew the eligible base by 40% and disbursals by 30% at the same risk.</li>
+            <li>Built a PySpark simulation pipeline that tests any policy change in under an hour, down from three days.</li>
+            <li>Built the portfolio's data mart and monitoring dashboard from scratch; present monthly reviews to the Chief Credit Risk Officer.</li>
+          </ul>
+        </div>
+      </article>
 
-  <button class="yes" onclick="yes()">YES</button>
-  <button class="no" onmouseover="move(this)">NO</button>
-</div>
+      <article class="job reveal">
+        <div class="job-meta">
+          <p class="when">Apr 2024 &ndash; Mar 2026</p>
+          <p class="where">Gurugram</p>
+        </div>
+        <div class="job-body">
+          <h3>Consultant <span class="org">Indus Insights</span></h3>
+          <p class="job-sum">Credit risk and analytics for US financial-services clients.</p>
+          <ul>
+            <li>Forecast losses on a $29B corporate payments portfolio within 5% of actuals, and automated the process end to end.</li>
+            <li>Cut high-value customer attrition by 30% in two months with an LLM pipeline that reads call transcripts.</li>
+            <li>Redesigned a lock policy that added $1.6M in revenue; built a debt-settlement risk model for a $2B lending book.</li>
+          </ul>
+        </div>
+      </article>
 
-<!-- Result Screen -->
-<div class="box hidden" id="result">
-  <h1>YAYYYYY! 🎉</h1>
+      <article class="job reveal">
+        <div class="job-meta">
+          <p class="when">Oct 2020 &ndash; Jun 2022</p>
+          <p class="where">Bengaluru</p>
+        </div>
+        <div class="job-body">
+          <h3>Associate Consultant <span class="org">Fractal Analytics</span></h3>
+          <p class="job-sum">Sales analytics for a global healthcare company.</p>
+          <ul>
+            <li>Unified sales data from 30+ countries into one Tableau dashboard, driving $2M+ in incremental revenue.</li>
+            <li>Made record matching for 55,000+ hospitals 25x faster in Python.</li>
+            <li>STAR Award: top 1% of 300 consultants.</li>
+          </ul>
+        </div>
+      </article>
 
-  <img src="photo.jpg" class="photo">
+      <div class="skills reveal">
+        <h3>Toolkit</h3>
+        <ul class="chips">
+          <li>SQL</li><li>Databricks</li><li>PySpark</li><li>Python</li><li>Snowflake</li><li>Hive</li><li>Tableau</li>
+          <li>Credit policy</li><li>Bureau data (CIBIL, CRIF, Experian)</li><li>Vintage &amp; roll-rate analysis</li><li>Loss forecasting</li><li>LLM workflows</li>
+        </ul>
+      </div>
+    </section>
 
-  <p>Our Valentine plan is already perfect:</p>
-  <h3>Satinder Sartaj Concert ❤️</h3>
+    <!-- Education -->
+    <section class="section wrap" id="education">
+      <h2 class="section-title"><span>03</span>Education</h2>
+      <div class="edu-grid">
+        <div class="edu reveal">
+          <p class="when">2024</p>
+          <h3>Indian Institute of Management Kozhikode</h3>
+          <p>MBA</p>
+        </div>
+        <div class="edu reveal">
+          <p class="when">2016 &ndash; 2020</p>
+          <h3>Ashoka University</h3>
+          <p>PG Diploma, Computer Science<br>BA (Hons.) Psychology, <em>cum laude</em></p>
+        </div>
+        <div class="edu reveal">
+          <p class="when">Recognition</p>
+          <h3>Along the way</h3>
+          <p>NTSE and KVPY Scholar<br>Top 0.1%, Samsung E.D.G.E 8.0<br>Top 5%ile, ProdMan Quiz</p>
+        </div>
+      </div>
+    </section>
 
-  <p>Bangalore chapter loading soon 🌧️❤️</p>
+    <!-- Beyond work -->
+    <section class="section wrap" id="beyond">
+      <h2 class="section-title"><span>04</span>Off the clock</h2>
+      <div class="hobbies">
+        <div class="hobby reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 20l5-9 3 5 2-3 4 7"/><circle cx="16.5" cy="6.5" r="2"/></svg>
+          <h3>Travel</h3>
+          <p>Exploring new places whenever I can.</p>
+        </div>
+        <div class="hobby reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7l1.5-2.5h4L15.5 7"/><circle cx="12" cy="13.5" r="3.5"/></svg>
+          <h3>Photography</h3>
+          <p>Usually with a camera on those trips.</p>
+        </div>
+        <div class="hobby reveal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10a4 4 0 0 1 3.9 4.9l-.8 3.5a2.5 2.5 0 0 1-4.3 1.1L14 15.5h-4l-1.8 2a2.5 2.5 0 0 1-4.3-1.1l-.8-3.5A4 4 0 0 1 7 8z"/><path d="M8 11v3M6.5 12.5h3"/><circle cx="15.5" cy="11.5" r=".6"/><circle cx="17" cy="13.5" r=".6"/></svg>
+          <h3>Gaming</h3>
+          <p>How I unwind.</p>
+        </div>
+      </div>
+    </section>
 
-  <p class="small">
-    From MBA classrooms to annoying client calls,<br>
-    from Gurgaon chaos to BLR dreams –<br>
-    I’d choose you every single time.
-  </p>
-</div>
+    <!-- Contact -->
+    <section class="section wrap" id="contact">
+      <h2 class="section-title"><span>05</span>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-text reveal">
+          <p class="lede-sm">Leave your details and a short note. I'll get back to you.</p>
+          <ul class="links">
+            <li><a href="mailto:zafara26@iimklive.com">zafara26@iimklive.com</a></li>
+            <li><a href="https://www.linkedin.com/in/skzafarali/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/zafar21" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+        <form class="contact-form reveal" id="contactForm" action="https://formsubmit.co/zafara26@iimklive.com" method="POST" novalidate>
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="cf-org">Company or role <span class="opt">(optional)</span></label>
+            <input id="cf-org" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="cf-msg">Message</label>
+            <textarea id="cf-msg" name="message" rows="5" required></textarea>
+          </div>
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_subject" value="New message from zafar21.github.io">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <button class="btn btn-primary" type="submit">Send</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
 
-<audio id="song" src="sajan_raazi.mp3"></audio>
+  <footer class="footer">
+    <div class="wrap">
+      <p>&copy; 2026 Zafar Ali</p>
+    </div>
+  </footer>
 
-<script src="script.js"></script>
-
+  <script src="main.js"></script>
 </body>
 </html>

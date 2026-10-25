@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Golu ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<!-- Loading Screen -->
+<div id="loading">
+  <h2>Loading something special for Golu...</h2>
+</div>
+
+<!-- Typing Intro -->
+<div class="box hidden" id="intro">
+  <h2 id="typing"></h2>
+  <button onclick="startGame()">Continue</button>
+</div>
+
+<!-- Quiz Box -->
+<div class="box hidden" id="questionBox">
+  <h2 id="question"></h2>
+  <div id="options"></div>
+</div>
+
+<!-- Final Proposal -->
+<div class="box hidden" id="finalBox">
+  <h1>So Golu...</h1>
+  <h2>Will you be my Valentine? 💖</h2>
+
+  <button class="yes" onclick="yes()">YES</button>
+  <button class="no" onmouseover="move(this)">NO</button>
+</div>
+
+<!-- Result Screen -->
+<div class="box hidden" id="result">
+  <h1>YAYYYYY! 🎉</h1>
+
+  <img src="photo.jpg" class="photo">
+
+  <p>Our Valentine plan is already perfect:</p>
+  <h3>Satinder Sartaj Concert ❤️</h3>
+
+  <p>Bangalore chapter loading soon 🌧️❤️</p>
+
+  <p class="small">
+    From MBA classrooms to annoying client calls,<br>
+    from Gurgaon chaos to BLR dreams –<br>
+    I’d choose you every single time.
+  </p>
+</div>
+
+<audio id="song" src="sajan_raazi.mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
